@@ -1,5 +1,5 @@
+@{a="\"} >$null # " 2>/dev/null || true #" >NUL 2>&1 || TYPE NUL & ECHO OFF
 echo \" <<'BATCH_SCRIPT' >/dev/null ">NUL "\" \`" <#"
-@ECHO OFF
 REM ===== Batch Script Begin =====
 ECHO I'm PolyShell, a batch script!
 REM ====== Batch Script End ======
