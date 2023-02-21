@@ -1,4 +1,4 @@
-echo \" <<'BATCH_SCRIPT' >/dev/null ">NUL "\" \`" <#"
+@{' 2>nul&::'={\"<<BATCH_SCRIPT 2>/dev/null;#"}}[0]<#
 @ECHO OFF
 REM ===== Batch Script Begin =====
 ECHO I'm PolyShell, a batch script!
@@ -6,7 +6,7 @@ REM ====== Batch Script End ======
 GOTO :eof
 TYPE CON >NUL
 BATCH_SCRIPT
-#> | Out-Null
+#>
 
 
 echo \" <<'POWERSHELL_SCRIPT' >/dev/null # " | Out-Null
